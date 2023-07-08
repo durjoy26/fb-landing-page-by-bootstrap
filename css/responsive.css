@@ -1,0 +1,92 @@
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+    .right-area p {
+        bottom: -65px;
+        font-size: 1.3rem;
+        left: 20px;
+    }
+    .heading {
+        font-size: 25px;
+    }
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .container.d-flex.flex-column.justify-content-center {
+        flex-direction: row !important;
+    }
+    .left-area {
+        width: 56%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .left-area h2 {
+        margin: -16px 0px 0px 23px;
+        font-size: 1.2rem;
+        text-align: initial;
+    }
+    .left-area img {
+        margin-top: -10px;
+        width: 75%;
+    }
+    .main-box {
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+    .right-area{
+        width: 50%;
+    }
+    .box {
+        width: 87%;
+    }
+    .input {
+        font-size: 18px;
+        padding: 5px 0px 5px 5px;
+    }
+    button.login-btn {
+        font-size: 1.2rem;
+        padding: 3px 0px;
+    }
+    .box a {
+        font-size: 14px;
+    }   
+    .right-area p {
+        padding: 0rem 1rem;
+        font-size: initial;
+        position: absolute;
+        bottom: -80px;
+    }
+    button.new-btn {
+        font-size: 1rem;
+    } 
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .left-area h2 {
+        margin: -26px 0px 0px 44px;
+        font-size: 1.4rem;
+    }
+    .left-area img {
+        width: 80%;
+    }
+    .right-area p {
+        bottom: -55px;
+        left: 38px;
+    }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .left-area h2 {
+        margin: -30px 0px 0px 53px;
+        font-size: 1.5rem;
+    }
+    .right-area p {
+        left: 75px;
+    }
+ }
